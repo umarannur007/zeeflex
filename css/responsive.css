@@ -1,0 +1,58 @@
+@media (max-width: 1000px) {
+    .splash-text-big {
+        font-size: 50px;
+    }
+    #movies .col-3{
+        width: 50%;
+    }
+    .movie{
+        margin-top: 50px;
+    }
+    .movie_trailer iframe{
+        height: 250px;
+    }
+}
+
+@media (max-width: 750px){
+    .container{
+        padding: 0 20px;
+    }
+    nav{
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+    .splash-text-big br {
+        display: none;
+    }
+    #movies .col-3{
+        width: 100%;
+    }
+    #footer .col-3{
+        width: 50%;
+    }
+    header{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.383), rgba(143, 143, 211, 0.459)), url("../img/bg-sm.jpg");
+    }
+    .movie{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .splash-text-big {
+        font-size: 45px;
+        line-height: 1.3;
+    }
+    .footer-btm-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-btm-wrapper > * {
+        margin-bottom: 10px;
+    }
+    .movie_trailer iframe{
+        height: 200px;
+    }
+}

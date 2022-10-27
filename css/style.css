@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: #929292;
@@ -10,8 +13,9 @@ body{
 }
 /* ====RESUABLE CODE==== */
 .container{
-    width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 section{
     padding-top: 80px;
@@ -70,6 +74,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-position: center;
 }
 /* Logo */
 .logo{
@@ -89,10 +94,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background-color: #222;
     padding: 10px 40px;
-    position: relative;
-    top: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 9999;
 }
 .navigation{
     list-style: none;
@@ -118,7 +125,8 @@ nav{
     font-weight: 200;
 }
 .splash-text-big{
-    font-size: 60px
+    font-size: 60px;
+    margin-bottom: 50px;
 }
 .txt-green{
     color: #07bb2d;
